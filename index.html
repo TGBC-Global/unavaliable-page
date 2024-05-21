@@ -4,10 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TGBC Unavaliable</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <main>
+        <img alt="TGBC" src="/assets/favicon_x64.png">
+        <div>
+            <h2 id="location" style="font-size:12px"></h2>
+            <h1>This page is not avaliable</h1>
+            <span>make sure you are in the correct direction, or contact administrative <a href="mailto:info@tgbc.ac.th">info@tgbc.ac.th</a></span>
+        </div>
+    </main>
+    <script>
+        const location_element = document.getElementById("location");
+        location_element.innerText = "You are at "+window.location.href;
+    </script>
 </body>
 </html>
